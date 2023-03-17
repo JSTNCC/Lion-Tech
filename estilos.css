@@ -1,0 +1,568 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Teko:wght@500&display=swap');
+
+*{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Teko', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-padding-top: 2rem;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+#contenedor{
+    width: 100%;
+    margin: 0px auto;
+    border: 1px solid #30A8C5;
+}
+
+header{
+    background: #30A8C5;
+  width: 100%;
+  clear: both;
+  content:'';
+  display: table;
+}
+
+header h1{
+    color: white;
+    padding: 20px;
+    margin: 0px;
+    float: left;
+    margin-left: 20px;
+    font-size: 3rem;
+}
+
+nav{
+    float: right;
+    
+}
+
+nav ul li{
+    list-style: none;
+    margin-left: 25px;
+    margin-top: 15px;
+    padding: 25px 0;
+    float: left;
+    position: relative;
+    margin-right: 30px;
+    font-size: 1.4rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #444;
+    font-weight: bold;
+  }
+
+  nav ul li a::before {
+    display: block;
+    content: '';
+    width: 0%;
+    background: #444;
+    height: 5px;
+    top:0;
+    position: absolute;
+    transition: width 0.2s;
+  }
+  
+  nav ul li a:hover::before {
+    width: 100%;
+  }
+
+.clearfix{
+    clear: both;
+}
+
+#contenido{
+    float: center;
+    width: 100%;
+    min-height: 500px;
+    background: white;
+    padding: 65px;
+    margin-left: 50px;
+}
+
+.articulo{
+    color: black;
+    margin: 10px 20px;
+    padding-bottom: 10px; 
+    
+}
+
+.articulo h2{
+    font-size: 30px;
+    text-align: left;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.articulo img{
+    margin-right: 30px;
+}
+
+.main-wrap{
+    width: 100%;
+    background: #fff;
+}
+.footer-wrap{
+    position: relative;
+    width:100%;
+    padding:40px;
+    background: #30A8C5;
+}
+.footer-wrap-1{
+    display: flex;
+}
+.footer-section{
+    width:22%;
+    display:block;
+    padding:10px 35px;
+}
+.footer-section:last-of-type{
+    width:34%;
+}
+.footer-section p{
+    color:#fff;
+    font-size: 16px;
+}
+.footer-section h1{
+    font-size:22px;
+    color:#fff;
+    margin-bottom:1px;
+    margin-top: 25px;
+}
+
+.footer-section:first-child{
+    margin-left: 150px;
+    margin-right: 100px;
+}
+
+.footer-section img{
+    height: 315px;
+}
+
+.footer-section ul li:hover{
+    color: black;
+}
+
+.footer-section a{
+    color:#fff;
+    display: block;
+    text-decoration: none;
+    padding:4px 0px;
+}
+.footer-section form{
+    position:relative;
+}
+.footer-section input{
+    position:absolute;
+    height:35px;
+    width: 220px;
+    margin:8px 0px;
+    border:none;
+    outline:none;
+    padding:6px;
+    font-size:14px;
+}
+.footer-section button{
+    height:35px;
+    background:rgb(79, 156, 69);
+    border:none;
+    padding:0px 6px;
+    margin-left: 300px;
+    position:absolute;
+    left:60%;
+    font-weight: 200;
+    cursor: pointer;
+    color:#fff;
+    font-family:Anton;
+}
+.footer-section .btn:hover{
+    background: rgb(107,204,94);
+}
+
+.footer-section ul li{
+    color: white;
+    list-style: none;
+    margin-top: 20px;
+}
+
+#productos{
+    float: center;
+    width: 100%;
+    min-height: 500px;
+    background: white;
+    padding: 65px;
+    margin-left: 50px;
+}
+.comp{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.mon1{
+    width: 100x;
+    margin: 0 auto;
+  }
+  figure {
+    width: 32%;
+    float: left;
+    margin: 0;
+  }
+  figcaption {
+    text-align: center;
+  }
+  figcaption h2 {
+    text-transform: uppercase;
+    margin: 15px 15px;
+    font-family: "Poppins ExtraBold";
+    font-size: 20px;
+    letter-spacing: 5px;
+  }
+  figcaption p {
+    width: 90%;
+    margin: auto;
+    font-size: 18px;
+    font-family: Teko;
+    letter-spacing: 5px;
+  }
+  figcaption a {
+    background: tomato;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 30px;
+    letter-spacing: 2px;
+    margin-bottom: 100px;
+  }
+  .hover-animation {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    margin: 10% auto 0;
+    color: #fff;
+    
+  }
+  
+  .hover-animation img {
+    position: absolute;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -ms-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+    
+  }
+  .hover-animation img.img-front:hover{
+    opacity:0;
+    cursor: pointer;
+    
+  }
+  .prodimage{
+    position: relative;
+    height: 250px;
+    width: 250px;
+    margin: 10% auto 0;
+    color: #fff;
+  }
+
+  .cart{
+      position: fixed;
+      top: 0;
+      right: -100%;
+      width: 250px;
+      min-height: 100vh;
+      padding: 20px;
+      background:white;
+      box-shadow: -2px 0 4px hsl(0 4% 15% / 10%);
+      transition: 0.3s;
+  }
+
+  .cart.active{
+      right: 0;
+  }
+
+  .cart-title{
+      text-align: center;
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin-top: 2rem;
+  }
+
+  .cart-img{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    padding: 10px;
+  }
+
+  .cart-box{
+      display: grid;
+      grid-template-columns: 32% 50% 18%;
+      align-items: center;
+      gap: 1rem;
+      margin-top: 1rem;
+  }
+  
+  .detail-box{
+      display: grid;
+      row-gap: 0.5rem;   
+  }
+  .cart-product-title{
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      margin-left: 5px ;
+  }
+
+  .cart-price{
+      font-weight: 500;
+  }
+  
+  .cart-quantity{
+      border: 1px solid black;
+      outline-color: #30A8C5;
+      width: 2.4rem;
+      text-align: center;
+      font-size: 1rem;
+  }
+
+  .cart-remove{
+      font-size: 24px;
+      color: #30A8C5;
+      cursor: pointer;
+      margin-top: 55px;
+  }
+
+  .total{
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 1.5rem;
+      border-top: 1px solid black;
+  }
+
+  .total-title{
+      font-size: 1rem;
+      font-weight: 600;
+  }
+
+  .total-price{
+      margin-left: 0.5rem;
+  }
+
+  .btn-buy{
+      display: flex;
+      margin: 1.5rem auto 0 auto;
+      padding: 12px 20px;
+      border: none;
+      background: #30A8C5;
+      color: white;
+      font-size: 1rem;
+      font-weight: 500;
+      cursor: pointer;
+  }
+
+  .btn-buy:hover{
+      background: #444;
+  }
+
+  #close-cart{
+    position: absolute;
+    top: 1rem;
+    right: 0.8rem;
+    font-size: 2rem;
+    color: #444;
+    cursor: pointer;
+  }
+
+  .add-cart{
+      margin-top: 5px;
+      margin-bottom: 20px;
+      font-size: 2rem;
+  }
+  .wsp{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+.wsp:hover {
+	text-decoration: none;
+	color: #25d366;
+  background-color:#fff;
+}
+
+.my-wsp{
+	margin-top:16px;
+}
+
+.formulario{
+    color: black;
+    padding-bottom: 10px; 
+    font-size: 2rem;
+    
+}
+.formulario input{
+   height: 50%;
+   border: 2px solid #30A8C5;
+   padding: 1.2rem;
+   margin-left: 154px;
+   margin-top: 100px;
+}
+
+.formulario .specf-right input{
+    height: 50%;
+   border: 2px solid #30A8C5;
+   padding: 1.2rem;
+   margin-left: 154px;
+   margin-top: 100px;
+}
+
+/*CARD*/
+.form-container form .inputBox{
+    margin-top: 20px;
+  }
+  
+  .form-container form .inputBox span{
+    display: block;
+    color:#999;
+    padding-bottom: 5px;
+  }
+  
+  .form-container form .inputBox input,
+  .form-container form .inputBox select{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border:1px solid rgba(0,0,0,.3);
+    color:#444;
+  }
+  
+  .form-container form .flexbox{
+    display: flex;
+    gap:15px;
+  }
+  
+  .form-container form .flexbox .inputBox{
+    flex:1 1 150px;
+  }
+  
+   .card-container{
+    position:absolute;
+    height: 250px;
+    width: 400px;
+    left: -60px;
+    top: -260px;
+  }
+  
+  .card-container .front-card{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0; left: 0;
+    background:linear-gradient(45deg, blueviolet, deeppink);
+    border-radius: 5px;
+    backface-visibility: hidden;
+    box-shadow: 0 15px 25px rgba(0,0,0,.2);
+    padding:20px;
+    transform:perspective(1000px) rotateY(0deg);
+    transition:transform .4s ease-out;
+  }
+  
+   .card-container .front-card .image{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding-top: 10px;
+  }
+  
+   .card-container .front-card .image img{
+    height: 50px;
+  }
+  
+   .card-container .front-card .card-number-box{
+    padding:30px 0;
+    font-size: 22px;
+    color:#fff;
+  }
+  
+  .card-container .front-card .flexbox{
+    display: flex;
+  }
+  
+  .card-container .front-card .flexbox .box:nth-child(1){
+    margin-right: auto;
+  }
+  
+  .card-container .front-card .flexbox .box{
+    font-size: 15px;
+    color:#fff;
+  }
+  
+   .card-container .back-card{
+    position: absolute;
+    top:0; left: 0;
+    height: 100%;
+    width: 100%;
+    background:linear-gradient(45deg, blueviolet, deeppink);
+    border-radius: 5px;
+    padding: 20px 0;
+    text-align: right;
+    backface-visibility: hidden;
+    box-shadow: 0 15px 25px rgba(0,0,0,.2);
+    transform:perspective(1000px) rotateY(180deg);
+    transition:transform .4s ease-out;
+  }
+  
+   .card-container .back-card .stripe{
+    background: #000;
+    width: 100%;
+    margin: 10px 0;
+    height: 50px;
+  }
+  
+   .card-container .back-card .box{
+    padding: 0 20px;
+  }
+  
+   .card-container .back-card .box span{
+    color:#fff;
+    font-size: 15px;
+  }
+  
+  .card-container .back-card .box .cvv-box{
+    height: 50px;
+    padding: 10px;
+    margin-top: 5px;
+    color:#333;
+    background: #fff;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  .card-container .back-card .box img{
+    margin-top: 30px;
+    height: 30px;
+  }
+  /*CARD*/

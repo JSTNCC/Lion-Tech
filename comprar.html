@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>LION-TECH</title>
+    <link rel="stylesheet" href="estilos.css" />
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div id="contenedor">
+        <header>
+            <h1>LION-TECH</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="productos.html">Productos</a>
+                    </li>
+                    <li>
+                        <a href="comprar.html">Comprar</a>
+                    </li>
+                    <li>
+                        <i class='bx bx-shopping-bag' id="cart-icon"></i>
+                        <div class="cart">
+                            <h2 class="cart-title">Carro</h2>
+                            <div class="cart-content">
+                             
+                            </div>
+                            <!--Total-->
+                            <div class="total">
+                                <div class="total-title">Total</div>
+                                <div class="total-price">₡0</div>
+                            </div>
+                            <!--Buy-->
+                            <button type="button" class="btn-buy">Comprar</button>
+                            <!--Cart Close-->
+                            <i class='bx bx-x' id="close-cart"></i>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <div class="clearfix"></div>
+
+        
+            
+            <form id="Form3">
+                <div class="card-container">
+                  <div class="front-card">
+                    <div class="image">
+                        <img src="./imagenes/chip.png" alt="">
+                        <img src="./imagenes/visa.png" alt="">
+                    </div>
+                    <div class="card-number-box">################</div>
+                    <div class="flexbox">
+                        <div class="box">
+                            <span>Titular</span>
+                            <div class="card-holder-name">Nombre Completo</div>
+                        </div>
+                        <div class="box">
+                            <span>Expira</span>
+                            <div class="expiration">
+                                <span class="exp-month">mm</span>
+                                <span class="exp-year">yy</span>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+          
+                  <div class="back-card">
+                    <div class="stripe"></div>
+                    <div class="box">
+                        <span>cvv</span>
+                        <div class="cvv-box"></div>
+                        <img src="./imagenes/visa.png" alt="">
+                    </div>
+                  </div>
+          
+                </div>  
+                <div class="inputBox">
+                  <input type="text" maxlength="16" class="card-number-input" placeholder="Num.Tarjeta">
+                </div>
+                <div class="inputBox">
+                  <input type="text" class="card-holder-input" placeholder="Nombre del Titular">
+                </div>
+                <div class="flexbox">
+                  <div class="inputBox">
+                      <select name="" id="" class="month-input">
+                          <option value="month" selected disabled>Mes</option>
+                          <option value="01">01</option>
+                          <option value="02">02</option>
+                          <option value="03">03</option>
+                          <option value="04">04</option>
+                          <option value="05">05</option>
+                          <option value="06">06</option>
+                          <option value="07">07</option>
+                          <option value="08">08</option>
+                          <option value="09">09</option>
+                          <option value="10">10</option>
+                          <option value="11">11</option>
+                          <option value="12">12</option>
+                      </select>
+                  </div>
+                  <div class="inputBox">
+                      <select name="" id="" class="year-input">
+                          <option value="year" selected disabled>Año</option>
+                          <option value="2021">2021</option>
+                          <option value="2022">2022</option>
+                          <option value="2023">2023</option>
+                          <option value="2024">2024</option>
+                          <option value="2025">2025</option>
+                          <option value="2026">2026</option>
+                          <option value="2027">2027</option>
+                          <option value="2028">2028</option>
+                          <option value="2029">2029</option>
+                          <option value="2030">2030</option>
+                      </select>
+                  </div>
+                  <div class="inputBox">
+                      <input type="text" maxlength="4" class="cvv-input" placeholder="CVV">
+                  </div>
+                </div>
+                <div class="btn-box">
+                  <button type="button" id="back2">Volver</button>
+                  <button type="submit" >Finalizar</button>
+                </div>
+              </form>
+       
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <a href="https://api.whatsapp.com/send?phone=18852554&text=Hola! En que te podemos ayudar?" class="wsp" target="_blank">
+        <i class="fa fa-whatsapp my-wsp"></i>
+        </a>
+
+        <div class="clearfix"></div>
+
+        <div class="main-wrap">
+            <div class="footer-wrap">
+                <div class="footer-wrap-1">
+                    <div class="footer-section">
+                        <ul>
+                            <img src="imagenes\logo.png" alt="logo">
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h1>CONÓCENOS</h1>
+                        <ul>
+                            <li>Preguntas Frecuentes</li>
+                        </ul>
+                        <h1>NUESTRAS POLÍTICAS</h1>
+                        <ul>
+                            <li>Políticas de Privacidad</li>
+                            <li>Políticas de Garantía</li>
+                            <li>Términos y Condiciones</li>
+                            <li>Mapa del Sitio</li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h1>MÁS INFORMACIÓN</h1>
+                        <form action="">
+                            <input type="email" name="email" id="email" placeholder="Email...">
+                            <button type="submit" class="btn">ENVIAR</button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+            <script src="main.js"></script>
+</body>
+
+</html>
